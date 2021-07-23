@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/*navbar section start from here*/
+
+.navbar img{
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    outline: none;
+    border: none;
+}
+
+/*navbar section end here*/
+
+/*landing section start from here*/
+
+#home{
+
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('/images/shopping3.jpg');
+    background-size: cover;
+    background-position:  center;
+    padding: 400px 0;
+    position: relative;
+    background-attachment: fixed;
+   
+}
+.home-center{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.home-center h1{
+
+    color: #fff;
+    font-size: 60px;
+    font-weight: 500;
+
+}
+.home-center p{
+
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+}
+.home-button .btn-shop{
+
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: none;
+    padding: 8px 20px;
+    transition: all linear .3s;
+    margin-right: 15px;
+}
+.home-button .btn-member{
+
+    color: #333;
+    border: 1px solid #fff;
+    border-radius: none;
+    padding: 8px 20px;
+    transition: all linear .3s;
+    margin-left: 15px;
+    background: #fff;
+}
+.home-button .btn-shop:hover{
+
+    color: #333;
+    border: 1px solid #333;
+    border-radius: none;
+    background: #fff;
+}
+.home-button .btn-member:hover{
+
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: none;
+    background: none;
+
+}
+/*landing section end here*/
+
+/*product section start form here*/
+
+#productd{
+
+    padding: 100px 0
+}
+#product h5{
+
+    font-size: 30px;
+    font-weight: 400;
+  
+
+}
+#product h2{
+
+    font-size: 55px;
+    font-weight: 600;
+    transition: all linear .3s;
+    
+}
+
+#product h2:hover{
+
+   color: orangered;
+   transform:rotate(360deg);
+   transition: all linear .3s;
+  
+    
+}
+#product p{
+
+    line-height: 25px;
+    width: 50%;
+    margin: auto;
+}
+#product .style-card{
+
+    margin-top: 40px;
+}
+.style-card h4{
+
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.style-card span{
+
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+    
+}  
+#product .style-card a{
+
+    text-decoration: none;
+} 
+.style-card .card-body-botton{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 12px 10px;
+    color: #333;
+    
+}
+.style-card .card-body-botton a{
+
+    border: 3px solid #333;
+    padding: 6px 12px;
+    color: black;
+    margin-left: 10px;
+    
+}
+.style-card .card-body-botton a:nth-child(1){
+
+  background: #000;
+  color: #fff;
+  transition: all linear .3s;
+    
+}
+.style-card .card-body-botton a:nth-child(1):hover{
+
+  background: #fff;
+  color: #000;
+    
+}
+.style-card .card-body-botton a:nth-last-child(1):hover{
+
+    background: #000;
+    color: #fff;
+    
+}
+.style-card .card-body-botton a:nth-last-child(1):hover{
+
+     transition: all linear .3s;
+    
+}
+.card{
+
+    transition: all linear .3s;
+}
+.card:hover{
+
+    box-shadow: 2px 4px 8px #000;
+}
+.hover-img{
+
+    overflow: hidden;
+}
+.hover-img img{
+
+    transition: all linear .3s;
+}
+.hover-img:hover img{
+
+    transform: scale(1.2);
+}
+
+/*product section end here*/
+
+
+/*services section start here*/
+
+#services{
+
+    padding: 100px 0;
+}
+.services{
+
+    text-align: center;
+
+}
+.services h5{
+
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+    line-height: 25px;
+ 
+}
+.services h2{
+
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+    margin-top: 15px;
+  
+}
+.services-content{
+
+    text-align: center;
+    box-shadow: 3px 5px 10px rgb(112, 110, 110);
+    padding: 15px 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.services-content i{
+
+    font-size: 50px;
+    color: #4EB8BC;
+}
+.services-content h4{
+
+    font-weight: bold;
+    text-transform: uppercase;
+     margin-top: 5px;
+}
+.services-content p{
+
+    line-height: 30px;
+}
+#services .services-content a{
+
+    text-decoration: none;
+}
+/*services section end here*/
+
+
+/*testimonial  section start here*/
+
+
+#testimonial{
+
+    padding: 30px 0;
+}
+.testimonial{
+
+    text-align: center;
+}
+.testimonial h5{
+
+    font-size: 40px;
+    color:black;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.testimonial h2{
+
+    font-size: 60px;
+    font-weight: 6000;
+    color: black;
+    text-transform: uppercase;
+}
+.carousel-inner{
+
+    text-align: center;
+}
+.carousel-inner .carousel-item img{
+
+    border-radius: 50%;
+   height: 350px;
+   width: 350px;
+}
+.carousel-item h5{
+
+    font-weight: 400;
+    font-size: 40px;
+}
+/*testimonial  section end here*/
+
+/*project work  section start from here*/
+
+#projectWork{
+
+    padding: 50px 0;
+}
+.projectWork{
+
+    text-align: center;
+    
+}
+.projectWork p{
+
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black;
+    transition: all linear .3s;
+}
+.projectWork p:hover{
+
+    color: orangered;
+}
+#pWorkBg{
+
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('/images/header.jpg');
+    background-position:  center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+    margin-top: 20px;
+
+}
+
+#pWorkBg h3{
+
+    color: #fff;
+
+}
+#pWorkBg p{
+
+    color: #fff;
+
+}
+
+/*project work  section end here*/
+
+/*contact section start form here*/
+
+#contact{
+
+    padding: 50px 0;
+
+}
+.contact{
+
+    text-align: center;
+}
+.contact h5{
+
+    font-size: 30px;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+}
+.contact h2{
+
+    font-size: 50px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+/*contact section end here*/
+
+/*footer section start form here*/
+
+#footer{
+
+    padding: 50px 0 0 0;
+}
+.footerAbout{
+
+    text-align: center;
+}
+.footerAbout h4{
+
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footerAbout p{
+
+    list-style: 25px;
+    font-size: 17px;
+}
+.quickAbout{
+
+    text-align: center;
+}
+.quickAbout h4{
+
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+}
+.quickAbout a{
+
+    color: #fff;
+}
+#footer a{
+
+    text-decoration: none;
+    
+}
+.aboutSocail{
+
+    text-align: center;
+}
+.aboutSocail h4{
+
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;    
+}
+.aboutSocail a{
+
+    font-size: 30px;
+    margin-left: 20px;
+    color: #fff;
+  
+}
+.copyRight{
+
+    text-align: center;
+    margin-top: 40px;
+}
+.copyRight p{
+
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding: 0 0 20px 0;
+}
+/*footer section end here*/
+
+/*scroll btn */
+#myBtn{
+
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    background: #333;
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.error{
+
+    border: 1px solid orangered;
+}
+.success{
+
+    border: 1px solid green;
+}
+
+

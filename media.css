@@ -1,0 +1,17 @@
+@media(max-width:576px){
+
+    .home-button .btn-member {
+      
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .home-button .btn-shop {
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .home-center h1 {
+        font-size: 40px;
+       
+    }
+}
